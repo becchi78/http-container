@@ -1,5 +1,5 @@
 # ベースイメージとして軽量なAlpine Linuxを使用
-FROM alpine:3.14
+FROM alpine:3.15
 
 # 必要なパッケージをインストール
 RUN apk add --no-cache python3 curl
